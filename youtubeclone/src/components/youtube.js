@@ -14,6 +14,7 @@ const YouTube = () => {
       const res = await axios.get(
         `https://youtube.googleapis.com/youtube/v3/search?maxResults=9&part=snippet&q=${input}&key=${process.env.REACT_APP_API_KEY}`
       );
+      debugger
       setVidList(res.data.items);
       debugger;
     } catch (error) {
