@@ -1,0 +1,30 @@
+/* .AboutContainer {
+    display: flex;
+    justify-content: center;
+} */
+
+.AboutProject {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #f9b1ea;
+    height: 90px;
+    width: 700px;
+    /* text-align: left; */
+    justify-content: center;
+    margin-left: 550px;
+    margin-top: 10px;
+}
+
+.AboutDevelopers {
+    display: flex;
+}
+
+.DevPara {
+    text-align: left;
+    margin: 25px;
+    border: 5px solid #f9b1ea;
+    padding: 12px;
+    height: 300px;
+    width: 500px;
+}
+
