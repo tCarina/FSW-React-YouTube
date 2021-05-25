@@ -66,7 +66,7 @@ const About = () => {
           <h1>Jessica</h1>
           <p>
             I am a software engineer and biomedical researcher based in New York
-            City. I have a background neuroscience and I aspire to apply my
+            City. I have a background in neuroscience and I aspire to apply my
             interest in technologies like Artificial Intelligence and Augmented
             Reality to improve patient experience as well as increase
             accessibility in healthcare. As an avid user of health tech apps, I
