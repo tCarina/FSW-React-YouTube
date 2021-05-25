@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 
 import "./YouTube.css";
 
+
+
 const YouTube = () => {
   const [vidList, setVidList] = useState([]);
   const [input, setInput] = useState("");
@@ -37,12 +39,7 @@ const YouTube = () => {
 
   return (
     <section className="MainBody">
-      <input
-        onChange={ handleChange }
-        value={input}
-        type="text"
-        placeholder="Search..."
-      />
+      <input onChange={handleChange} value={input} type="text" placeholder="Search..." />
 
       <button onClick={handleClick} className="searchbutton" type="submit">
         Search
