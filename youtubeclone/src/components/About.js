@@ -1,5 +1,8 @@
 import React from "react";
 import "./About.css";
+import AnJu from "../assets/AnJu.png";
+import Carina from "../assets/Carina.png";
+import Jessica from "../assets/Jessica.jpg";
 
 const About = () => {
   return (
@@ -23,8 +26,11 @@ const About = () => {
       <h1 className="AboutDevHdr">About the Developers</h1>
       <section className="AboutDevelopers">
         <div className="DevPara">
-          <h1>AnJu</h1>
+          <div className="ImageDiv">
+            <img src={AnJu} alt="AnJu" />
+          </div>
           <p>
+            <h1>AnJu</h1>
             I am a software engineer and performing artist who works at the
             intersection of theatre arts, technology, and social equity. I am
             passionate about accessibility, advocacy, building community, and
@@ -43,8 +49,11 @@ const About = () => {
         </div>
 
         <div className="DevPara">
-          <h1>Carina</h1>
+          <div className="ImageDiv">
+            <img src={Carina} alt="Carina" />
+          </div>
           <p>
+            <h1>Carina</h1>
             My name is Carina and I was born and raised in Queens. I am
             passionate about music, media, mental health and helping those who
             have a lack of representation.
@@ -63,14 +72,17 @@ const About = () => {
         </div>
 
         <div className="DevPara">
-          <h1>Jessica</h1>
+          <div className="ImageDiv">
+            <img src={Jessica} alt="Jessica" />
+          </div>
           <p>
-            I am a software engineer and biomedical researcher based in New York
-            City. I have a background in neuroscience and I aspire to apply my
-            interest in technologies like Artificial Intelligence and Augmented
-            Reality to improve patient experience as well as increase
-            accessibility in healthcare. As an avid user of health tech apps, I
-            hope to continue to support the field as a creator.
+            <h1>Jessica</h1>I am a software engineer and biomedical researcher
+            based in New York City. I have a background in neuroscience and I
+            aspire to apply my interest in technologies like Artificial
+            Intelligence and Augmented Reality to improve patient experience as
+            well as increase accessibility in healthcare. As an avid user of
+            health tech apps, I hope to continue to support the field as a
+            creator.
           </p>
           <a
             href="https://github.com/jessicanetto"
